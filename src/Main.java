@@ -97,5 +97,71 @@ public class Main {
             System.out.print((i + 4) + " ");
         }
         */
+
+        /*
+        // 6
+        for (int i = 4; i <= 14; i = i + 2)
+        {
+            System.out.print(i + " ");
+        }
+        int number = 4;
+        for (int i = 1; i < 7; i++)
+        {
+            System.out.print(number + " ");
+            number = number + 2;
+        }
+        */
+
+        /*
+        // 7
+        for (int i = 0; (i * 6) <= 100; i++)
+        {
+            System.out.print((i * 6) + " ");
+        }
+        */
+
+        /*
+        // 8
+        int x = 10;
+        for (int i = 0; i < x; i++)
+        {
+            System.out.println(i);
+            x--;
+        }
+        */
+
+        /*
+        // 9
+        int j = 0;
+        int sum = 0;
+        for (int i = 6; j <= i; i--)
+        {
+            j++;
+            sum += i + j;
+        }
+        System.out.println(sum);
+        int num = 100;
+        for (int count = 1; count <= num; count++)
+        {
+            System.out.print(num + " ");
+            num = num / 2;
+        }
+        */
+
+        /*
+        String print = "Print Me!";
+        for(int i = 0; i < print.length(); i++)
+        {
+            System.out.println(print.substring(i, i + 1));
+        }
+        */
+
+        /*
+        String print = "Print Me!";
+        for(int i = 0; i <= print.length(); i++)
+        {
+            System.out.println(print.substring(i, i + 1));
+        }
+        */
     }
 }
